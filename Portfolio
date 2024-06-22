@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .portfolio-item {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+        .portfolio-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Portfolio</h1>
+            <p>Welcome to my portfolio showcasing my work and projects.</p>
+        </header>
+
+        <section class="portfolio-item">
+            <h2>Project 1: Project Name</h2>
+            <p>Description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            <p><a href="#">View Project</a></p>
+        </section>
+
+        <section class="portfolio-item">
+            <h2>Project 2: Another Project Name</h2>
+            <p>Description of Project 2. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+            <p><strong>Technologies:</strong> React, Node.js, MongoDB</p>
+            <p><a href="#">View Project</a></p>
+        </section>
+
+        <section class="portfolio-item">
+            <h2>Project 3: Yet Another Project Name</h2>
+            <p>Description of Project 3. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+            <p><strong>Technologies:</strong> Python, Django, PostgreSQL</p>
+            <p><a href="#">View Project</a></p>
+        </section>
+
+        <footer>
+            <p>© 2024 My Portfolio. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
